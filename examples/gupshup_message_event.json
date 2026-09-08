@@ -1,0 +1,12 @@
+{
+  "type": "message",
+  "app": "YOUR_GUPSHUP_APP_NAME",
+  "payload": {
+    "sender": {
+      "phone": "2348000000000"
+    },
+    "payload": {
+      "text": "How fast are Taja transfers?"
+    }
+  }
+}

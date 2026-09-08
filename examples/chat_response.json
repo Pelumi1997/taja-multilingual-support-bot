@@ -1,0 +1,21 @@
+{
+  "session_id": "demo-user-001",
+  "language": "pcm",
+  "reply": "Taja talk say transfer dey land within minutes...",
+  "intent": "routine",
+  "matched_faq_id": "transfer-speed",
+  "confidence": 0.86,
+  "requires_human": false,
+  "escalation_priority": "none",
+  "case_reference": null,
+  "sources": [
+    {
+      "title": "Taja home page",
+      "url": "https://www.tajahq.com/",
+      "last_verified": "2026-09-04"
+    }
+  ],
+  "redacted_input": null,
+  "answer_mode": "deterministic",
+  "generation_fallback": false
+}

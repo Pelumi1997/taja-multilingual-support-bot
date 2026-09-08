@@ -1,0 +1,177 @@
+[
+  {
+    "language": "en",
+    "query": "What exactly does Taja do?",
+    "expected_faq_id": "what-is-taja"
+  },
+  {
+    "language": "en",
+    "query": "When will the recipient get my transfer?",
+    "expected_faq_id": "transfer-speed"
+  },
+  {
+    "language": "en",
+    "query": "Can I sell my crypto and receive naira in my bank?",
+    "expected_faq_id": "crypto-to-cash"
+  },
+  {
+    "language": "en",
+    "query": "What destinations are available?",
+    "expected_faq_id": "supported-countries"
+  },
+  {
+    "language": "en",
+    "query": "How safe is the platform?",
+    "expected_faq_id": "security"
+  },
+  {
+    "language": "en",
+    "query": "I want to register an account",
+    "expected_faq_id": "get-started"
+  },
+  {
+    "language": "en",
+    "query": "Let me speak with customer service",
+    "expected_faq_id": "contact-support"
+  },
+  {
+    "language": "pcm",
+    "query": "Wetin Taja dey do?",
+    "expected_faq_id": "what-is-taja"
+  },
+  {
+    "language": "pcm",
+    "query": "How many minutes transfer go take?",
+    "expected_faq_id": "transfer-speed"
+  },
+  {
+    "language": "pcm",
+    "query": "I wan cash out my crypto",
+    "expected_faq_id": "crypto-to-cash"
+  },
+  {
+    "language": "pcm",
+    "query": "Which places I fit send money go?",
+    "expected_faq_id": "supported-countries"
+  },
+  {
+    "language": "pcm",
+    "query": "My money safe for Taja?",
+    "expected_faq_id": "security"
+  },
+  {
+    "language": "pcm",
+    "query": "How I go open account?",
+    "expected_faq_id": "get-started"
+  },
+  {
+    "language": "pcm",
+    "query": "I need support agent",
+    "expected_faq_id": "contact-support"
+  },
+  {
+    "language": "ha",
+    "query": "Menene aikin Taja?",
+    "expected_faq_id": "what-is-taja"
+  },
+  {
+    "language": "ha",
+    "query": "Transfer zai dauki mintuna nawa?",
+    "expected_faq_id": "transfer-speed"
+  },
+  {
+    "language": "ha",
+    "query": "Ina son canza crypto zuwa kudi",
+    "expected_faq_id": "crypto-to-cash"
+  },
+  {
+    "language": "ha",
+    "query": "Wadanne kasashe ake tallafawa?",
+    "expected_faq_id": "supported-countries"
+  },
+  {
+    "language": "ha",
+    "query": "Shin kudina yana da tsaro?",
+    "expected_faq_id": "security"
+  },
+  {
+    "language": "ha",
+    "query": "Ina son yin rajista",
+    "expected_faq_id": "get-started"
+  },
+  {
+    "language": "ha",
+    "query": "Yaya zan tuntubi ma'aikaci?",
+    "expected_faq_id": "contact-support"
+  },
+  {
+    "language": "ig",
+    "query": "Gwa m ihe Taja bụ",
+    "expected_faq_id": "what-is-taja"
+  },
+  {
+    "language": "ig",
+    "query": "Oge ole ka transfer na-ewe?",
+    "expected_faq_id": "transfer-speed"
+  },
+  {
+    "language": "ig",
+    "query": "Achọrọ m ire crypto nata ego",
+    "expected_faq_id": "crypto-to-cash"
+  },
+  {
+    "language": "ig",
+    "query": "Mba ole ka m nwere ike izigara ego?",
+    "expected_faq_id": "supported-countries"
+  },
+  {
+    "language": "ig",
+    "query": "Akaụntụ m ọ dị nchebe?",
+    "expected_faq_id": "security"
+  },
+  {
+    "language": "ig",
+    "query": "Kedu ka m ga-esi debanye aha?",
+    "expected_faq_id": "get-started"
+  },
+  {
+    "language": "ig",
+    "query": "Achọrọ m onye nkwado",
+    "expected_faq_id": "contact-support"
+  },
+  {
+    "language": "yo",
+    "query": "Sọ fun mi ohun ti Taja n ṣe",
+    "expected_faq_id": "what-is-taja"
+  },
+  {
+    "language": "yo",
+    "query": "Iṣẹju melo ni gbigbe owo maa gba?",
+    "expected_faq_id": "transfer-speed"
+  },
+  {
+    "language": "yo",
+    "query": "Mo fẹ ta crypto ki n gba owo sinu banki",
+    "expected_faq_id": "crypto-to-cash"
+  },
+  {
+    "language": "yo",
+    "query": "Orilẹ-ede wo ni mo le ran owo si?",
+    "expected_faq_id": "supported-countries"
+  },
+  {
+    "language": "yo",
+    "query": "Ṣe owo mi wa ni aabo?",
+    "expected_faq_id": "security"
+  },
+  {
+    "language": "yo",
+    "query": "Mo fẹ ṣẹda akọọlẹ tuntun",
+    "expected_faq_id": "get-started"
+  },
+  {
+    "language": "yo",
+    "query": "Mo fẹ ba aṣoju atilẹyin sọrọ",
+    "expected_faq_id": "contact-support"
+  }
+]

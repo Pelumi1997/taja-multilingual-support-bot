@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Multilingual customer-support demo for Taja FAQs">
+  <title>Taja Multilingual Support Bot</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="intro-panel">
+      <p class="eyebrow">Python-first customer support</p>
+      <h1>Taja multilingual FAQ assistant</h1>
+      <p class="lead">A retrieval-based support service for English, Hausa, Igbo, Nigerian Pidgin and Yoruba.</p>
+      <div class="feature-list">
+        <span>Grounded answers</span>
+        <span>Safety routing</span>
+        <span>WhatsApp-ready API</span>
+      </div>
+      <p class="source-note">Knowledge summaries are linked to Taja's public website and FAQ pages.</p>
+    </section>
+
+    <section class="chat-card" aria-label="Chat demo">
+      <header class="chat-header">
+        <div>
+          <strong>Taja Support</strong>
+          <p>Demo environment · v{{ version }}</p>
+        </div>
+        <span class="status-dot" aria-label="Online"></span>
+      </header>
+      <div id="messages" class="messages" aria-live="polite"></div>
+      <form id="chat-form" class="composer">
+        <label class="sr-only" for="message">Message</label>
+        <input id="message" name="message" autocomplete="off" maxlength="2000" placeholder="Type a question or enter 0 for the menu" required>
+        <button type="submit">Send</button>
+      </form>
+      <p id="error" class="error" role="alert"></p>
+    </section>
+  </main>
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

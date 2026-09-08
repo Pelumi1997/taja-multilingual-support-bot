@@ -1,0 +1,647 @@
+{
+  "schema_version": 1,
+  "last_verified": "2026-09-04",
+  "languages": [
+    "en",
+    "pcm",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "ui": {
+    "language_menu": {
+      "en": "Please choose a language:\n1. English\n2. Hausa\n3. Igbo\n4. Nigerian Pidgin\n5. Yoruba\n\nReply with the number only.",
+      "pcm": "Abeg choose language:\n1. English\n2. Hausa\n3. Igbo\n4. Naija Pidgin\n5. Yoruba\n\nReply with the number only.",
+      "ha": "Da fatan za a zaɓi harshe:\n1. English\n2. Hausa\n3. Igbo\n4. Nigerian Pidgin\n5. Yoruba\n\nAmsa da lambar zaɓin ka kawai.",
+      "ig": "Biko họrọ asụsụ:\n1. English\n2. Hausa\n3. Igbo\n4. Nigerian Pidgin\n5. Yoruba\n\nZaa naanị nọmba nhọrọ gị.",
+      "yo": "Jọwọ yan ede kan:\n1. English\n2. Hausa\n3. Igbo\n4. Nigerian Pidgin\n5. Yoruba\n\nDahun pẹlu nọmba yiyan rẹ nikan."
+    },
+    "language_confirmed": {
+      "en": "English selected.",
+      "pcm": "You don choose Naija Pidgin.",
+      "ha": "An zaɓi Hausa.",
+      "ig": "A họrọla Igbo.",
+      "yo": "A ti yan Yorùbá."
+    },
+    "faq_menu_intro": {
+      "en": "What would you like to know?",
+      "pcm": "Wetin you wan know?",
+      "ha": "Me kake son sani?",
+      "ig": "Kedu ihe ị chọrọ ịma?",
+      "yo": "Kini o fẹ mọ?"
+    },
+    "menu_help": {
+      "en": "Reply with a number, ask the question in your own words, or type 'language' to change language.",
+      "pcm": "Reply with number, ask am your own way, or type 'language' to change language.",
+      "ha": "Amsa da lamba, yi tambayar da kalmominka, ko rubuta 'language' don canza harshe.",
+      "ig": "Zaa nọmba, jụọ ajụjụ ahụ n'okwu gị, ma ọ bụ dee 'language' ka ị gbanwee asụsụ.",
+      "yo": "Dahun pẹlu nọmba, beere ni ọna tirẹ, tabi kọ 'language' lati yi ede pada."
+    },
+    "fraud_reply": {
+      "en": "I’m sorry this happened. This needs urgent human review. Do not share your password, PIN, OTP, seed phrase, private key or full card details. Use Taja’s official support page: {support_url}.",
+      "pcm": "Sorry say this one happen. This matter need urgent human review. No share password, PIN, OTP, seed phrase, private key or full card details. Use Taja official support page: {support_url}.",
+      "ha": "Yi haƙuri da abin da ya faru. Wannan yana buƙatar a duba shi cikin gaggawa. Kada ka raba kalmar sirri, PIN, OTP, seed phrase, private key ko cikakken bayanin kati. Yi amfani da shafin tallafin Taja: {support_url}.",
+      "ig": "Ọ dị m nwute maka ihe mere. Nke a chọrọ ka onye ọrụ nyochaa ya ngwa ngwa. Ekekọrịtala password, PIN, OTP, seed phrase, private key ma ọ bụ nkọwa kaadị zuru ezu. Jiri ibe nkwado Taja: {support_url}.",
+      "yo": "Ma binu fun ohun ti o ṣẹlẹ. Eyi nilo ayẹwo eniyan ni kiakia. Maṣe pin ọrọ aṣina, PIN, OTP, seed phrase, private key tabi alaye kaadi ni kikun. Lo oju-iwe atilẹyin Taja: {support_url}."
+    },
+    "complaint_reply": {
+      "en": "I’m sorry about the experience. This should be reviewed as a complaint by a member of the support team. Please use Taja’s official support page for any supporting details: {support_url}.",
+      "pcm": "Sorry for the experience. Support person need review this one as complaint. Use Taja official support page if you need add details: {support_url}.",
+      "ha": "Yi haƙuri da wannan matsala. Ya kamata ma’aikacin tallafi ya duba wannan a matsayin ƙorafi. Yi amfani da shafin tallafin Taja don ƙarin bayani: {support_url}.",
+      "ig": "Ọ dị m nwute maka ahụmịhe a. Onye ọrụ nkwado kwesịrị nyochaa nke a dịka mkpesa. Jiri ibe nkwado Taja maka nkọwa ndị ọzọ: {support_url}.",
+      "yo": "Ma binu fun iriri naa. Oṣiṣẹ atilẹyin yẹ ki o ṣe ayẹwo eyi gẹgẹ bi ẹdun. Lo oju-iwe atilẹyin Taja fun alaye afikun: {support_url}."
+    },
+    "account_reply": {
+      "en": "Account-specific access or verification issues require a human review. Please contact Taja through the official support page and do not send passwords, PINs or OTPs: {support_url}.",
+      "pcm": "Account access or verification matter need support person. Contact Taja through official support page and no send password, PIN or OTP: {support_url}.",
+      "ha": "Matsalar shiga asusu ko tantancewa tana buƙatar ma’aikaci. Tuntuɓi Taja ta shafin tallafi kuma kada ka aika kalmar sirri, PIN ko OTP: {support_url}.",
+      "ig": "Nsogbu ịbanye n'akaụntụ ma ọ bụ nkwenye chọrọ onye ọrụ. Kpọtụrụ Taja site na ibe nkwado, ekekọrịtala password, PIN ma ọ bụ OTP: {support_url}.",
+      "yo": "Iṣoro wiwọle akọọlẹ tabi ijẹrisi nilo ayẹwo eniyan. Kan si Taja nipasẹ oju-iwe atilẹyin, maṣe fi ọrọ aṣina, PIN tabi OTP ranṣẹ: {support_url}."
+    },
+    "advice_reply": {
+      "en": "I can explain Taja’s published services, but I cannot provide investment, legal or tax advice or predict crypto prices.",
+      "pcm": "I fit explain Taja services wey dem publish, but I no fit give investment, legal or tax advice, and I no fit predict crypto price.",
+      "ha": "Zan iya bayyana ayyukan Taja da aka wallafa, amma ba zan ba da shawarar zuba jari, doka ko haraji ba, kuma ba zan yi hasashen farashin crypto ba.",
+      "ig": "Enwere m ike ịkọwa ọrụ Taja bipụtara, mana enweghị m ike inye ndụmọdụ itinye ego, iwu ma ọ bụ ụtụ isi, ma ọ bụ ibu amụma ọnụ ahịa crypto.",
+      "yo": "Mo le ṣalaye awọn iṣẹ Taja ti a tẹjade, ṣugbọn emi ko le fun ni imọran idoko-owo, ofin tabi owo-ori, tabi sọ asọtẹlẹ idiyele crypto."
+    },
+    "fallback_reply": {
+      "en": "I do not have enough verified Taja information to answer that accurately. Please use Taja’s official support page for human help: {support_url}.",
+      "pcm": "I no get enough verified Taja information to answer am well. Abeg use Taja official support page make support person help you: {support_url}.",
+      "ha": "Ba ni da isasshen tabbataccen bayanin Taja don amsa daidai. Yi amfani da shafin tallafin Taja don samun taimakon ma’aikaci: {support_url}.",
+      "ig": "Enweghị m ozi Taja zuru ezu ma kwadoro iji zaa nke ọma. Jiri ibe nkwado Taja ka onye ọrụ nyere gị aka: {support_url}.",
+      "yo": "Emi ko ni alaye Taja ti a fọwọsi to lati dahun ni deede. Lo oju-iwe atilẹyin Taja fun iranlọwọ eniyan: {support_url}."
+    },
+    "case_reference": {
+      "en": "Reference for this conversation: {case_reference}.",
+      "pcm": "Reference for this conversation na {case_reference}.",
+      "ha": "Lambar wannan tattaunawar ita ce {case_reference}.",
+      "ig": "Nọmba ntụaka mkparịta ụka a bụ {case_reference}.",
+      "yo": "Nọmba itọkasi ibaraẹnisọrọ yii ni {case_reference}."
+    }
+  },
+  "faqs": [
+    {
+      "id": "what-is-taja",
+      "category": "company",
+      "questions": {
+        "en": [
+          "What is Taja?",
+          "Tell me about Taja"
+        ],
+        "pcm": [
+          "Wetin be Taja?",
+          "Tell me about Taja"
+        ],
+        "ha": [
+          "Menene Taja?",
+          "Ka gaya min game da Taja"
+        ],
+        "ig": [
+          "Gịnị bụ Taja?",
+          "Gwa m maka Taja"
+        ],
+        "yo": [
+          "Kini Taja?",
+          "Sọ fun mi nipa Taja"
+        ]
+      },
+      "keywords": {
+        "en": [
+          "what is taja",
+          "about taja",
+          "taja company",
+          "services"
+        ],
+        "pcm": [
+          "wetin be taja",
+          "about taja",
+          "taja dey do wetin"
+        ],
+        "ha": [
+          "menene taja",
+          "game da taja",
+          "ayyukan taja"
+        ],
+        "ig": [
+          "gịnị bụ taja",
+          "maka taja",
+          "ọrụ taja"
+        ],
+        "yo": [
+          "kini taja",
+          "nipa taja",
+          "iṣẹ taja"
+        ]
+      },
+      "answers": {
+        "en": "Taja is a cross-border finance platform for sending, receiving and managing money. Its public website lists multi-currency wallets, virtual accounts, payment requests, international payouts, crypto on-ramp and off-ramp services, and virtual cards.",
+        "pcm": "Taja na cross-border finance platform wey people fit use send, receive and manage money. Their public website list multi-currency wallets, virtual accounts, payment requests, international payouts, crypto on-ramp and off-ramp, plus virtual cards.",
+        "ha": "Taja dandamali ne na hada-hadar kuɗi tsakanin ƙasashe domin aikawa, karɓa da sarrafa kuɗi. Shafinta ya lissafo wallet na kuɗaɗe daban-daban, virtual accounts, neman kuɗi, payouts na ƙasashen waje, crypto on-ramp/off-ramp da virtual cards.",
+        "ig": "Taja bụ ikpo okwu ego gafee mba maka izipu, ịnata na ijikwa ego. Weebụsaịtị ya depụtara multi-currency wallets, virtual accounts, arịrịọ ịkwụ ụgwọ, payouts mba ofesi, crypto on-ramp/off-ramp na virtual cards.",
+        "yo": "Taja jẹ́ pẹpẹ ìṣúná ààlà-kọjá fun fifiranṣẹ, gbigba ati iṣakoso owo. Oju opo wẹẹbu rẹ darukọ multi-currency wallets, virtual accounts, payment requests, payouts kariaye, crypto on-ramp/off-ramp ati virtual cards."
+      },
+      "sources": [
+        {
+          "title": "Taja FAQs",
+          "url": "https://www.tajahq.com/faqs",
+          "last_verified": "2026-09-04"
+        },
+        {
+          "title": "Taja home page",
+          "url": "https://www.tajahq.com/",
+          "last_verified": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "id": "transfer-speed",
+      "category": "transfers",
+      "questions": {
+        "en": [
+          "How fast are Taja transfers?",
+          "How long does a transfer take?"
+        ],
+        "pcm": [
+          "How fast Taja transfer dey?",
+          "How long transfer go take?"
+        ],
+        "ha": [
+          "Yaya saurin canja wurin Taja yake?",
+          "Tsawon nawa transfer zai ɗauka?"
+        ],
+        "ig": [
+          "Kedu ngwa ngwa mbufe Taja dị?",
+          "Ogologo oge ole ka mbufe na-ewe?"
+        ],
+        "yo": [
+          "Bawo ni gbigbe owo Taja ṣe yara?",
+          "Igba melo ni gbigbe owo maa gba?"
+        ]
+      },
+      "keywords": {
+        "en": [
+          "transfer time",
+          "how fast",
+          "how long",
+          "arrival time",
+          "minutes",
+          "delay"
+        ],
+        "pcm": [
+          "transfer time",
+          "how fast",
+          "how long",
+          "minutes",
+          "delay"
+        ],
+        "ha": [
+          "lokacin transfer",
+          "sauri",
+          "tsawon nawa",
+          "mintuna"
+        ],
+        "ig": [
+          "oge mbufe",
+          "ngwa ngwa",
+          "nkeji",
+          "ogologo oge"
+        ],
+        "yo": [
+          "akoko gbigbe",
+          "yara",
+          "iṣẹju",
+          "igba melo"
+        ]
+      },
+      "answers": {
+        "en": "Taja says transfers are delivered within minutes, and its public rate section shows an indicative arrival time of 1–5 minutes. Actual delivery can vary by destination, payment route, verification and operational checks, so confirm the current estimate in the app.",
+        "pcm": "Taja talk say transfer dey land within minutes, and their public rate page show 1–5 minutes as estimated arrival time. Real timing fit change because of destination, payment route, verification or checks, so confirm the current estimate for the app.",
+        "ha": "Taja ta ce canja wurin kuɗi yana isa cikin mintuna, kuma shafin farashinta ya nuna kimanin mintuna 1–5. Lokaci na ainihi na iya bambanta saboda ƙasa, hanyar biyan kuɗi, tantancewa ko wasu bincike; ka duba ƙiyasin yanzu a manhajar.",
+        "ig": "Taja kwuru na mbufe ego na-eru n'ime nkeji ole na ole, ibe ọnụego ya na-egosikwa nkeji 1–5 dị ka atụmatụ. Oge n'ezie nwere ike ịdị iche dabere na ebe a na-eziga, ụzọ ịkwụ ụgwọ, nkwenye na nyocha; lelee atụmatụ ọhụrụ n'ime ngwa.",
+        "yo": "Taja sọ pé gbigbe owo maa n de laarin iṣẹju diẹ, oju-iwe oṣuwọn rẹ si fihan iṣẹju 1–5 gẹgẹ bi akoko itọkasi. Akoko gangan le yato nitori ibi ti a n ranṣẹ si, ọna isanwo, ijẹrisi tabi ayẹwo; ṣayẹwo akoko lọwọlọwọ ninu app."
+      },
+      "sources": [
+        {
+          "title": "Taja FAQs",
+          "url": "https://www.tajahq.com/faqs",
+          "last_verified": "2026-09-04"
+        },
+        {
+          "title": "Taja home page",
+          "url": "https://www.tajahq.com/",
+          "last_verified": "2026-09-04"
+        },
+        {
+          "title": "Taja multi-currency wallets",
+          "url": "https://www.tajahq.com/services/wallet",
+          "last_verified": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "id": "crypto-to-cash",
+      "category": "crypto",
+      "questions": {
+        "en": [
+          "Can I convert crypto to cash?",
+          "How do I cash out crypto?"
+        ],
+        "pcm": [
+          "I fit convert crypto to cash?",
+          "How I go cash out crypto?"
+        ],
+        "ha": [
+          "Zan iya canza crypto zuwa kuɗi?",
+          "Ta yaya zan fitar da crypto zuwa cash?"
+        ],
+        "ig": [
+          "Enwere m ike ịgbanwe crypto ka ọ bụrụ ego?",
+          "Kedu ka m ga-esi cash out crypto?"
+        ],
+        "yo": [
+          "Ṣe mo le yi crypto pada si owo?",
+          "Bawo ni mo ṣe le cash out crypto?"
+        ]
+      },
+      "keywords": {
+        "en": [
+          "crypto to cash",
+          "cash out",
+          "sell crypto",
+          "off ramp",
+          "bank account"
+        ],
+        "pcm": [
+          "crypto to cash",
+          "cash out",
+          "sell crypto",
+          "bank"
+        ],
+        "ha": [
+          "crypto zuwa kudi",
+          "cash out",
+          "sayar da crypto",
+          "banki"
+        ],
+        "ig": [
+          "crypto ka ego",
+          "cash out",
+          "ree crypto",
+          "bankụ"
+        ],
+        "yo": [
+          "crypto si owo",
+          "cash out",
+          "ta crypto",
+          "banki"
+        ]
+      },
+      "answers": {
+        "en": "Yes. Taja’s public crypto page describes an off-ramp flow where you select the crypto asset, generate a Taja wallet address, send the crypto and receive cash in your bank account. Follow the current in-app instructions and rate shown before confirming a transaction.",
+        "pcm": "Yes. Taja public crypto page explain say you fit choose the crypto asset, generate Taja wallet address, send the crypto, then receive cash for your bank account. Follow the current steps and rate wey the app show before you confirm anything.",
+        "ha": "Eh. Shafin crypto na Taja ya bayyana cewa za ka zaɓi kadarar crypto, samar da adireshin wallet na Taja, aika crypto sannan ka karɓi kuɗi a asusun bankinka. Bi umarnin da farashin da manhajar ke nuna kafin ka tabbatar da ciniki.",
+        "ig": "Ee. Ibe crypto Taja kọwara na ị ga-ahọrọ akụ crypto, mepụta adreesị wallet Taja, zipu crypto, wee nata ego n'akaụntụ bankụ gị. Soro ntuziaka na ọnụego dị ugbu a n'ime ngwa tupu ị kwado azụmahịa.",
+        "yo": "Bẹẹni. Oju-iwe crypto Taja ṣalaye pe o le yan dukia crypto, ṣẹda adirẹsi wallet Taja, fi crypto ranṣẹ, lẹhinna gba owo sinu akọọlẹ banki rẹ. Tẹle ilana ati oṣuwọn lọwọlọwọ ninu app ki o to jẹrisi iṣowo."
+      },
+      "sources": [
+        {
+          "title": "Taja FAQs",
+          "url": "https://www.tajahq.com/faqs",
+          "last_verified": "2026-09-04"
+        },
+        {
+          "title": "Taja crypto on-ramp and off-ramp",
+          "url": "https://www.tajahq.com/services/crypto",
+          "last_verified": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "id": "supported-countries",
+      "category": "coverage",
+      "questions": {
+        "en": [
+          "Which countries can I send money to?",
+          "Where does Taja support transfers?"
+        ],
+        "pcm": [
+          "Which countries I fit send money go?",
+          "Where Taja transfer dey work?"
+        ],
+        "ha": [
+          "Waɗanne ƙasashe zan iya aika kuɗi zuwa?",
+          "A ina Taja ke tallafa wa transfer?"
+        ],
+        "ig": [
+          "Kedu mba m nwere ike izigara ego?",
+          "Ebee ka Taja na-akwado mbufe?"
+        ],
+        "yo": [
+          "Awọn orilẹ-ede wo ni mo le fi owo ranṣẹ si?",
+          "Nibo ni Taja ṣe atilẹyin gbigbe owo?"
+        ]
+      },
+      "keywords": {
+        "en": [
+          "countries",
+          "where can i send",
+          "supported destinations",
+          "global reach",
+          "50 countries",
+          "destinations",
+          "available destinations"
+        ],
+        "pcm": [
+          "countries",
+          "where send",
+          "destinations",
+          "50 countries"
+        ],
+        "ha": [
+          "kasashe",
+          "aika kudi",
+          "wuraren da ake tallafa",
+          "kasashe 50"
+        ],
+        "ig": [
+          "mba",
+          "ebe iziga ego",
+          "mba 50",
+          "ebe akwadoro"
+        ],
+        "yo": [
+          "orilẹ-ede",
+          "ibi fifiranṣẹ",
+          "orilẹ-ede 50",
+          "awọn ibi atilẹyin"
+        ]
+      },
+      "answers": {
+        "en": "Taja says users can send money to more than 50 countries, including bank accounts, mobile wallets and cards where supported. Availability can vary by destination and payout method, so use the app to confirm the country and route currently available.",
+        "pcm": "Taja say users fit send money go more than 50 countries, including bank accounts, mobile wallets and cards where dem support am. Availability fit change by country and payout method, so check the app for the current route.",
+        "ha": "Taja ta ce masu amfani za su iya aika kuɗi zuwa fiye da ƙasashe 50, ciki har da asusun banki, mobile wallets da cards inda ake tallafa. Samuwa na iya bambanta da ƙasa da hanyar payout, don haka ka tabbatar a manhajar.",
+        "ig": "Taja kwuru na ndị ọrụ nwere ike iziga ego n'ihe karịrị mba 50, gụnyere akaụntụ bankụ, mobile wallets na cards ebe a na-akwado ha. Nnweta nwere ike ịdị iche dabere na mba na ụzọ payout, ya mere lelee ngwa maka ozi ọhụrụ.",
+        "yo": "Taja sọ pe awọn olumulo le fi owo ranṣẹ si ju orilẹ-ede 50 lọ, pẹlu awọn akọọlẹ banki, mobile wallets ati cards nibiti a ti ṣe atilẹyin. Wiwa le yato gẹgẹ bi orilẹ-ede ati ọna payout, nitorina ṣayẹwo app fun ọna lọwọlọwọ."
+      },
+      "sources": [
+        {
+          "title": "Taja FAQs",
+          "url": "https://www.tajahq.com/faqs",
+          "last_verified": "2026-09-04"
+        },
+        {
+          "title": "Taja home page",
+          "url": "https://www.tajahq.com/",
+          "last_verified": "2026-09-04"
+        },
+        {
+          "title": "Taja multi-currency payouts",
+          "url": "https://www.tajahq.com/services/payouts",
+          "last_verified": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "category": "security",
+      "questions": {
+        "en": [
+          "Is Taja secure?",
+          "How does Taja protect my money?"
+        ],
+        "pcm": [
+          "Taja secure?",
+          "How Taja dey protect my money?"
+        ],
+        "ha": [
+          "Taja tana da tsaro?",
+          "Ta yaya Taja ke kare kuɗina?"
+        ],
+        "ig": [
+          "Taja ọ dị nchebe?",
+          "Kedu ka Taja si echekwa ego m?"
+        ],
+        "yo": [
+          "Ṣe Taja ni aabo?",
+          "Bawo ni Taja ṣe n daabo bo owo mi?"
+        ]
+      },
+      "keywords": {
+        "en": [
+          "secure",
+          "safe",
+          "security",
+          "protect",
+          "encryption",
+          "fraud protection"
+        ],
+        "pcm": [
+          "secure",
+          "safe",
+          "protect money",
+          "fraud protection"
+        ],
+        "ha": [
+          "tsaro",
+          "lafiya",
+          "kare kudi",
+          "zamba"
+        ],
+        "ig": [
+          "nchebe",
+          "chekwa ego",
+          "security",
+          "aghụghọ"
+        ],
+        "yo": [
+          "aabo",
+          "daabo bo owo",
+          "security",
+          "jibiti"
+        ]
+      },
+      "answers": {
+        "en": "Taja states that it uses security controls to protect funds and information, and its virtual-account page refers to compliance, encryption and fraud protection. You should still protect your account: never share your password, PIN, OTP, seed phrase, private key or full card details.",
+        "pcm": "Taja talk say e use security controls to protect money and information, and their virtual-account page mention compliance, encryption and fraud protection. Still protect your account: no share password, PIN, OTP, seed phrase, private key or full card details.",
+        "ha": "Taja ta ce tana amfani da matakan tsaro don kare kuɗi da bayanai, kuma shafin virtual account ya ambaci bin ƙa'idoji, encryption da kariya daga zamba. Ka kare asusunka: kada ka raba kalmar sirri, PIN, OTP, seed phrase, private key ko cikakken bayanin kati.",
+        "ig": "Taja kwuru na ọ na-eji usoro nchekwa echekwa ego na ozi, ibe virtual account ya kwukwara nrube isi, encryption na nchedo aghụghọ. Chekwaa akaụntụ gị: ekekọrịtala password, PIN, OTP, seed phrase, private key ma ọ bụ nkọwa kaadị zuru ezu.",
+        "yo": "Taja sọ pe o nlo awọn iṣakoso aabo lati daabo bo owo ati alaye, oju-iwe virtual account rẹ si darukọ ibamu ofin, encryption ati aabo lodi si jibiti. Daabo bo akọọlẹ rẹ: maṣe pin ọrọ aṣina, PIN, OTP, seed phrase, private key tabi alaye kaadi ni kikun."
+      },
+      "sources": [
+        {
+          "title": "Taja FAQs",
+          "url": "https://www.tajahq.com/faqs",
+          "last_verified": "2026-09-04"
+        },
+        {
+          "title": "Taja home page",
+          "url": "https://www.tajahq.com/",
+          "last_verified": "2026-09-04"
+        },
+        {
+          "title": "Taja virtual accounts",
+          "url": "https://www.tajahq.com/services/virtual-accounts",
+          "last_verified": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "id": "get-started",
+      "category": "onboarding",
+      "questions": {
+        "en": [
+          "How do I get started?",
+          "How do I create a Taja account?"
+        ],
+        "pcm": [
+          "How I go start?",
+          "How I go create Taja account?"
+        ],
+        "ha": [
+          "Ta yaya zan fara?",
+          "Ta yaya zan ƙirƙiri asusun Taja?"
+        ],
+        "ig": [
+          "Kedu ka m ga-esi malite?",
+          "Kedu ka m ga-esi mepụta akaụntụ Taja?"
+        ],
+        "yo": [
+          "Bawo ni mo ṣe le bẹrẹ?",
+          "Bawo ni mo ṣe le ṣẹda akọọlẹ Taja?"
+        ]
+      },
+      "keywords": {
+        "en": [
+          "get started",
+          "sign up",
+          "create account",
+          "register",
+          "download app",
+          "onboarding"
+        ],
+        "pcm": [
+          "start",
+          "sign up",
+          "create account",
+          "register",
+          "download app"
+        ],
+        "ha": [
+          "fara",
+          "rajista",
+          "kirkiro asusu",
+          "sauke manhaja"
+        ],
+        "ig": [
+          "malite",
+          "debanye aha",
+          "mepụta akaụntụ",
+          "budata ngwa"
+        ],
+        "yo": [
+          "bẹrẹ",
+          "forukọsilẹ",
+          "ṣẹda akọọlẹ",
+          "gba app silẹ"
+        ]
+      },
+      "answers": {
+        "en": "Download the Taja app and create an account. Complete the identity-verification steps shown in the app, add funds using an available local-currency or crypto route, then choose the service or recipient you need. Requirements and availability can depend on your location and verification status.",
+        "pcm": "Download Taja app and create account. Complete the identity verification wey the app show, add money with any local-currency or crypto route wey dey available, then choose the service or person wey you wan send to. Requirements fit depend on your location and verification status.",
+        "ha": "Sauke manhajar Taja ka ƙirƙiri asusu. Kammala matakan tantancewa da manhajar ta nuna, ƙara kuɗi ta hanyar local currency ko crypto da ke samuwa, sannan ka zaɓi sabis ko wanda kake son aikawa. Bukatu na iya dogara da wurinka da matsayin tantancewa.",
+        "ig": "Budata ngwa Taja ma mepụta akaụntụ. Mezue usoro nkwenye njirimara dị n'ime ngwa, tinye ego site na local currency ma ọ bụ crypto dị, wee họrọ ọrụ ma ọ bụ onye ịchọrọ izigara. Ihe achọrọ nwere ike ịdabere na ebe ị nọ na ọnọdụ nkwenye gị.",
+        "yo": "Gba app Taja silẹ ki o ṣẹda akọọlẹ. Pari awọn igbesẹ ijẹrisi idanimọ ninu app, fi owo kun nipasẹ local currency tabi ọna crypto ti o wa, lẹhinna yan iṣẹ tabi olugba. Awọn ibeere le dale lori ipo rẹ ati ipo ijẹrisi rẹ."
+      },
+      "sources": [
+        {
+          "title": "Taja FAQs",
+          "url": "https://www.tajahq.com/faqs",
+          "last_verified": "2026-09-04"
+        },
+        {
+          "title": "Taja home page",
+          "url": "https://www.tajahq.com/",
+          "last_verified": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "id": "contact-support",
+      "category": "support",
+      "questions": {
+        "en": [
+          "How do I contact Taja support?",
+          "I need to speak to a human"
+        ],
+        "pcm": [
+          "How I fit contact Taja support?",
+          "I need talk to support person"
+        ],
+        "ha": [
+          "Ta yaya zan tuntuɓi tallafin Taja?",
+          "Ina son yin magana da ma'aikaci"
+        ],
+        "ig": [
+          "Kedu ka m ga-esi kpọtụrụ nkwado Taja?",
+          "Achọrọ m ịgwa onye ọrụ okwu"
+        ],
+        "yo": [
+          "Bawo ni mo ṣe le kan si atilẹyin Taja?",
+          "Mo fẹ ba oṣiṣẹ sọrọ"
+        ]
+      },
+      "keywords": {
+        "en": [
+          "contact support",
+          "human",
+          "agent",
+          "phone",
+          "email",
+          "help desk",
+          "customer service",
+          "speak with customer service"
+        ],
+        "pcm": [
+          "contact support",
+          "human",
+          "agent",
+          "phone",
+          "email"
+        ],
+        "ha": [
+          "tuntubi tallafi",
+          "ma'aikaci",
+          "waya",
+          "email"
+        ],
+        "ig": [
+          "kpọtụrụ nkwado",
+          "onye ọrụ",
+          "ekwentị",
+          "email"
+        ],
+        "yo": [
+          "kan si atilẹyin",
+          "oṣiṣẹ",
+          "foonu",
+          "imeeli"
+        ]
+      },
+      "answers": {
+        "en": "Use Taja’s official contact page to send a message or find the current support channels: https://www.tajahq.com/contact. Do not send passwords, PINs, OTPs, seed phrases, private keys or full card details.",
+        "pcm": "Use Taja official contact page to send message or see their current support channels: https://www.tajahq.com/contact. No send password, PIN, OTP, seed phrase, private key or full card details.",
+        "ha": "Yi amfani da shafin tuntuɓar Taja don aika saƙo ko ganin hanyoyin tallafi na yanzu: https://www.tajahq.com/contact. Kada ka aika kalmar sirri, PIN, OTP, seed phrase, private key ko cikakken bayanin kati.",
+        "ig": "Jiri ibe kọntaktị Taja zipu ozi ma ọ bụ hụ ụzọ nkwado dị ugbu a: https://www.tajahq.com/contact. Ekekọrịtala password, PIN, OTP, seed phrase, private key ma ọ bụ nkọwa kaadị zuru ezu.",
+        "yo": "Lo oju-iwe olubasọrọ Taja lati fi ifiranṣẹ ranṣẹ tabi wo awọn ọna atilẹyin lọwọlọwọ: https://www.tajahq.com/contact. Maṣe fi ọrọ aṣina, PIN, OTP, seed phrase, private key tabi alaye kaadi ni kikun ranṣẹ."
+      },
+      "sources": [
+        {
+          "title": "Taja contact and support",
+          "url": "https://www.tajahq.com/contact",
+          "last_verified": "2026-09-04"
+        }
+      ]
+    }
+  ]
+}
