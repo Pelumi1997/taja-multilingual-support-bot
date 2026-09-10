@@ -73,8 +73,11 @@ class ChatService:
     async def process(self, request: ChatRequest) -> ChatResponse:
         stored_language = await self.sessions.get_language(request.session_id)
         selected_language = (
-            self.languages.parse_selection(request.message)
-            if stored_language is None and request.language is None
+            self.languages.parse_selection(
+                request.message,
+                allow_menu_numbers=stored_language is None,
+            )
+            if request.language is None
             else None
         )
         language = self.languages.resolve(

@@ -72,3 +72,41 @@ async def test_restricted_advice_is_declined_without_fake_ticket(chat_service: C
     assert response.intent == Intent.RESTRICTED_ADVICE
     assert response.requires_human is False
     assert response.case_reference is None
+
+@pytest.mark.asyncio
+async def test_natural_language_switching_across_session(chat_service: ChatService) -> None:
+    session_id = "seven"
+
+    # Start in Nigerian Pidgin
+    response = await chat_service.process(
+        ChatRequest(session_id=session_id, message="4")
+    )
+    assert response.language == LanguageCode.PIDGIN
+
+    # Natural-language switch to Igbo
+    response = await chat_service.process(
+        ChatRequest(session_id=session_id, message="can I switch to Igbo?")
+    )
+    assert response.language == LanguageCode.IGBO
+    assert response.intent == Intent.MENU
+
+    # Natural-language switch to Yoruba
+    response = await chat_service.process(
+        ChatRequest(session_id=session_id, message="can I switch to Yoruba?")
+    )
+    assert response.language == LanguageCode.YORUBA
+    assert response.intent == Intent.MENU
+
+    # Natural-language switch back to English
+    response = await chat_service.process(
+        ChatRequest(session_id=session_id, message="can I switch to English?")
+    )
+    assert response.language == LanguageCode.ENGLISH
+    assert response.intent == Intent.MENU
+
+    # Confirm the final language persists for a normal FAQ question
+    response = await chat_service.process(
+        ChatRequest(session_id=session_id, message="How long does a transfer take?")
+    )
+    assert response.language == LanguageCode.ENGLISH
+    assert response.matched_faq_id == "transfer-speed"

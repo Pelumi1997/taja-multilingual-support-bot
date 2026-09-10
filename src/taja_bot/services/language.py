@@ -56,9 +56,35 @@ class LanguageService:
         value = re.sub(r"\s+", " ", value)
         return value
 
-    def parse_selection(self, value: str) -> LanguageCode | None:
+    def parse_selection(
+        self,
+        value: str,
+        *,
+        allow_menu_numbers: bool = True,
+    ) -> LanguageCode | None:
         normalised = self.normalise(value)
-        return MENU_SELECTIONS.get(normalised) or ALIASES.get(normalised)
+
+        if allow_menu_numbers:
+            direct = MENU_SELECTIONS.get(normalised)
+            if direct is not None:
+                return direct
+
+        direct = ALIASES.get(normalised)
+        if direct is not None:
+            return direct
+
+        for alias, language in ALIASES.items():
+            pattern = (
+                r"\b(?:switch(?: language)?(?: to)?|"
+                r"change(?: language)?(?: to)?|"
+                r"use|speak|continue in|reply in)\s+"
+                + re.escape(alias)
+                + r"\b"
+            )
+            if re.search(pattern, normalised):
+                return language
+
+        return None
 
     def detect(self, message: str) -> LanguageCode:
         normalised = self.normalise(message)
@@ -79,11 +105,17 @@ class LanguageService:
     ) -> LanguageCode:
         if explicit is not None:
             return explicit
-        if stored is not None:
-            return stored
-        selected = self.parse_selection(message)
+
+        selected = self.parse_selection(
+            message,
+            allow_menu_numbers=stored is None,
+        )
         if selected is not None:
             return selected
+
+        if stored is not None:
+            return stored
+
         return self.detect(message)
 
     @staticmethod
